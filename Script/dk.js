@@ -56,3 +56,12 @@ p = {
     "time" : "2021-05-21 20:21:06"
   }
 }
+var body = $response.body;
+var obj = JSON.parse(body);
+
+obj = p;
+body = JSON.stringify(obj);
+
+console.log(body);
+
+$done(body);
