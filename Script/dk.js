@@ -63,7 +63,7 @@ p = {
   },
   "result" : {
     "error" : "161",
-    "time" : now
+    "time" : now()
   }
 }
 var body = $response.body;
