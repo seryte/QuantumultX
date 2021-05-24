@@ -53,7 +53,7 @@ p = {
   },
   "result" : {
     "error" : "161",
-    "time" : "2021-05-21 20:21:06"
+    "time" : new Date().Format("yyyy-MM-dd hh:mm:ss")
   }
 }
 var body = $response.body;
