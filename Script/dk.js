@@ -1,3 +1,14 @@
+function now()
+    {
+        dt = new Date();
+        var y=dt.getFullYear();
+        var m=dt.getMonth() + 1;
+        var d=dt.getDate();
+        var h=dt.getHours();
+        var i=dt.getMinutes();
+        var s=dt.getSeconds();
+        return (y+"-"+m+"-"+d+" "+h+":"+i+":"+s);
+    }
 p = {
   "content" : {
     "radius" : "3473.958353",
@@ -53,7 +64,7 @@ p = {
   },
   "result" : {
     "error" : "161",
-    "time" : new Date().Format("yyyy-MM-dd hh:mm:ss")
+    "time" : now
   }
 }
 var body = $response.body;
