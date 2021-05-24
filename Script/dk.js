@@ -1,5 +1,4 @@
-function now()
-    {
+function now() {
         dt = new Date();
         var y=dt.getFullYear();
         var m=dt.getMonth() + 1;
