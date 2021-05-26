@@ -10,7 +10,7 @@ function now() {
     }
 p = {
   "content" : {
-   "radius" : "3473.958353",
+   "radius" : "3.958353",
    // "radius" : "34734949464649",
     "floor" : "",
     "sema" : {
@@ -63,7 +63,7 @@ p = {
     "bldg" : ""
   },
   "result" : {
-    "error" : "161",
+    "error" : "",
     "time" : now()
   }
 }
